@@ -1,0 +1,12 @@
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\bin\Debug\net6.0\Business.dll
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\Business.dll
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\semih\Desktop\C# Kodları\Ders Notları\ToursWebsiteBackend\Business\obj\Debug\net6.0\ref\Business.dll
