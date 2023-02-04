@@ -24,6 +24,9 @@ namespace DataAccess.Mappings
             builder.Property(t => t.FinishTime).IsRequired();
             builder.Property(t => t.FinishTime).HasMaxLength(20);
             builder.Property(t => t.PickUpTİme);
+            builder.Property(t => t.PickUpTİme).HasMaxLength(20);
+            builder.Property(t => t.PickUpPlace).IsRequired();
+            builder.Property(t => t.PickUpPlace).HasMaxLength(50);
             builder.Property(t => t.ReturnPlace).HasMaxLength(50);
             builder.Property(t => t.Description).HasMaxLength(500);
             builder.Property(t => t.CreatedDate);

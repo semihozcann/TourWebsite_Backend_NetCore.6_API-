@@ -16,6 +16,7 @@ namespace DataAccess.Mappings
             builder.HasKey(i => i.Id);
             builder.Property(i => i.Id).ValueGeneratedOnAdd();
             builder.Property(i => i.ImageUrl).IsRequired();
+            builder.Property(i => i.ImageUrl).HasMaxLength(500);
             builder.Property(i => i.CreatedDate);
             builder.Property(i => i.UpdatedDate);
             builder.ToTable("Images");

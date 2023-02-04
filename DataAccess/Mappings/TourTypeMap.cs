@@ -17,6 +17,8 @@ namespace DataAccess.Mappings
             builder.Property(t => t.Id).ValueGeneratedOnAdd();
             builder.Property(t => t.Name).IsRequired();
             builder.Property(t => t.Name).HasMaxLength(50);
+            builder.Property(t => t.Description).IsRequired();
+            builder.Property(t => t.Description).HasMaxLength(250);
             builder.Property(t => t.CreatedDate);
             builder.Property(t => t.UpdatedDate);
             builder.ToTable("TourTypes");
