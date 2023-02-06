@@ -1,4 +1,5 @@
-﻿using Core.Entities.Concrete;
+﻿using Core.Entities.Abstract;
+using Core.Entities.Concrete;
 using DataAccess.Mappings;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +39,23 @@ namespace DataAccess.Concrete.EntityFramework.Context
             builder.ApplyConfiguration(new UserMap());
             builder.ApplyConfiguration(new OperationClaimMap());
             builder.ApplyConfiguration(new UserOperationClaimMap());
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            var datas = ChangeTracker.Entries<BaseEntity>();
+            foreach (var data in datas)
+            {
+                if (data.State == EntityState.Added)
+                {
+                    data.Entity.CreatedDate = DateTime.Now;
+                }
+                else if (data.State == EntityState.Modified)
+                {
+                    data.Entity.UpdatedDate = DateTime.Now;
+                }
+            }
+            return base.SaveChangesAsync(cancellationToken);
         }
 
     }
